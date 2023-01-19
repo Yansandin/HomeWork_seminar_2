@@ -1,7 +1,5 @@
-﻿
-int number = new Random().Next(100, 1000);
-
-Console.WriteLine("Сгенерировано трехзначное число " + number);
+﻿Console.WriteLine("Введите число: ");
+int number = Convert.ToInt32(Console.ReadLine());
 
 int FirstDigit = number % 100;
 int SecondDigit = FirstDigit / 10;
